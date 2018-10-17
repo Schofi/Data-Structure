@@ -19,6 +19,7 @@
 ||[LinkedListStack](https://github.com/Schofi/Happy-With-Data-Structure-Java/blob/master/LinkedListStack.java)|链表实现栈|
 |堆|[MaxHeap](https://github.com/Schofi/Happy-With-Data-Structure-Java/blob/master/MaxHeap.java)|实现最大堆|重点是元素上升与下降过程|
 |优先队列|[Queue](https://github.com/Schofi/Happy-With-Data-Structure-Java/blob/master/Queue.java)|接口||
+|循坏队列|[LoopQueue](https://github.com/Schofi/Happy-With-Data-Structure-Java/blob/master/LoopQueue.java)|有两端的标志点|注意队空与队满的定义|
 ||[PriortyQueue](https://github.com/Schofi/Happy-With-Data-Structure-Java/blob/master/PriortyQueue.java)|用最大堆实现|所以为最大优先队列|
 | 并查集     |[UnionFind](https://github.com/Schofi/Happy-With-Data-Structure-Java/tree/master/Union%20Find) |  代码   |处理一些不相交集合（Disjoint Sets）的合并及查询问题|
 |字典树（前缀树）|[Trie](https://github.com/Schofi/Happy-With-Data-Structure-Java/blob/master/Trie.java)|实现字典树|适用与字符串，查询很高效|
