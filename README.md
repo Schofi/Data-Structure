@@ -10,6 +10,7 @@
 |二分搜索树|[BinarySearchTree](https://github.com/Schofi/Happy-With-Data-Structure-Java/blob/master/BinarySearchTree.java)|实现二分搜索树|重点是删除元素过程|
 |集合|[Set](https://github.com/Schofi/Happy-With-Data-Structure-Java/blob/master/Set.java)|集合接口||
 ||[LinkedListSet](https://github.com/Schofi/Happy-With-Data-Structure-Java/blob/master/LinkedListSet.java)|链表实现集合||
+||[BSTSet](https://github.com/Schofi/Happy-With-Data-Structure-Java/blob/master/BinarySearchTreeSet.java)|二分搜索树实现集合||
 |映射|[Map](https://github.com/Schofi/Happy-With-Data-Structure-Java/blob/master/Map.java)|映射接口||
 ||[LinkedListMap](https://github.com/Schofi/Happy-With-Data-Structure-Java/blob/master/LinkedListMap.java)|链表实现||
 ||[BSTMap](https://github.com/Schofi/Happy-With-Data-Structure-Java/commit/4f20437e69a616a1aefbe4a20e805453cd5f66d9)|二分搜索树实现||
