@@ -1,4 +1,3 @@
-
 public class UnionFind6 implements UF {
 	private int[] parent;
 	private int[] rank;
@@ -18,7 +17,7 @@ public class UnionFind6 implements UF {
 		if(p<0||p>=parent.length) {
 			throw new IllegalArgumentException("p is out of bound");
 		}
-		while(p!=parent[p]) {
+		if(p!=parent[p]) {
 			parent[p]=find(parent[p]);
 		}
 		return parent[p];
