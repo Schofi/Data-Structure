@@ -29,4 +29,4 @@
 ||[UnionFind5](https://github.com/Schofi/Happy-With-Data-Structure-Java/blob/master/Union%20Find/UnionFind5.java)|路径压缩|让当前节点指向父亲的父亲结点|
 ||[UnionFind6](https://github.com/Schofi/Happy-With-Data-Structure-Java/blob/master/Union%20Find/UnionFind6.java)|递归实现路径压缩||
 |字典树（前缀树）|[Trie](https://github.com/Schofi/Happy-With-Data-Structure-Java/blob/master/Trie.java)|实现字典树|适用与字符串，查询很高效|
-|哈希表|[HashTable](https://github.com/Schofi/Happy-With-Data-Structure/blob/master/HashTable.java)|整形哈希函数|键与值分布越均匀越好|
+|哈希表|[HashTable](https://github.com/Schofi/Happy-With-Data-Structure/blob/master/HashTable.java)|整形哈希函数|键与值分布越均匀越好，不同领域有不同的设计方法|
