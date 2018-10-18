@@ -19,10 +19,10 @@
 ||[LinkedListStack](https://github.com/Schofi/Happy-With-Data-Structure-Java/blob/master/LinkedListStack.java)|链表实现栈|
 |堆|[MaxHeap](https://github.com/Schofi/Happy-With-Data-Structure-Java/blob/master/MaxHeap.java)|实现最大堆|重点是元素上升与下降过程|
 |优先队列|[Queue](https://github.com/Schofi/Happy-With-Data-Structure-Java/blob/master/Queue.java)|接口||
-|循坏队列|[LoopQueue](https://github.com/Schofi/Happy-With-Data-Structure-Java/blob/master/LoopQueue.java)|有两端的标志点|注意队空与队满的定义|
 ||[PriortyQueue](https://github.com/Schofi/Happy-With-Data-Structure-Java/blob/master/PriortyQueue.java)|用最大堆实现|所以为最大优先队列|
+|循坏队列|[LoopQueue](https://github.com/Schofi/Happy-With-Data-Structure-Java/blob/master/LoopQueue.java)|有两端的标志点|注意队空与队满的定义|
 | 并查集     |[UnionFind](https://github.com/Schofi/Happy-With-Data-Structure-Java/tree/master/Union%20Find) |  代码   |处理一些不相交集合（Disjoint Sets）的合并及查询问题|
 ||[UnionFind1](https://github.com/Schofi/Happy-With-Data-Structure-Java/blob/master/Union%20Find/UnionFind1.java)|数组实现||
 ||[UnionFind2](https://github.com/Schofi/Happy-With-Data-Structure-Java/blob/master/Union%20Find/UnionFind2.java)|树实现|森林结构，并查集初始形态|
-||[UnionFind3](https://github.com/Schofi/Happy-With-Data-Structure-Java/blob/master/Union%20Find/UnionFind3.java)|基于size优化||
+||[UnionFind3](https://github.com/Schofi/Happy-With-Data-Structure-Java/blob/master/Union%20Find/UnionFind3.java)|基于size优化|size为集合元素个数|
 |字典树（前缀树）|[Trie](https://github.com/Schofi/Happy-With-Data-Structure-Java/blob/master/Trie.java)|实现字典树|适用与字符串，查询很高效|
