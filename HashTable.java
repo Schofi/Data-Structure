@@ -13,15 +13,14 @@ public class HashTable<K, V> {
 	private int M;
 	private int size;
 	
-	public HashTable(int M) {
-		this.M=capacityIndex;
+	public HashTable() {
+		this.M=capacity[capacityIndex];
 		size=0;
 		hashtable=new TreeMap[M];
 		for(int i=0;i<M;i++) {
 			hashtable[i]=new TreeMap<>();
 		}
 	}
-	
 	private int hash(K key) {
 		return (key.hashCode()&0x7fffffff)%M;
 	}
