@@ -27,4 +27,5 @@
 ||[UnionFind3](https://github.com/Schofi/Happy-With-Data-Structure-Java/blob/master/Union%20Find/UnionFind3.java)|基于size优化|size为集合元素个数|
 ||[UnionFind4](https://github.com/Schofi/Happy-With-Data-Structure-Java/blob/master/Union%20Find/UnionFind4.java)|基于rank的优化|rank为树的高度|
 ||[UnionFind5](https://github.com/Schofi/Happy-With-Data-Structure-Java/blob/master/Union%20Find/UnionFind5.java)|路径压缩|让当前节点指向父亲的父亲结点|
+||[UnionFind6](https://github.com/Schofi/Happy-With-Data-Structure-Java/blob/master/Union%20Find/UnionFind6.java)|递归实现路径压缩||
 |字典树（前缀树）|[Trie](https://github.com/Schofi/Happy-With-Data-Structure-Java/blob/master/Trie.java)|实现字典树|适用与字符串，查询很高效|
