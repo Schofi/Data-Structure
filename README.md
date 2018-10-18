@@ -3,7 +3,7 @@
 * 我们在调用set,map等标准库里的东西，大多使用平衡二叉树，也就是红黑树实现的。
 * 代码主要是用java写的，目前不断增加中......
 ---
-|                  数据结构          |              源码               |                    注释      |           说明                   |
+|                  数据结构          |              Java源码               |                    注释      |           说明                   |
 | --------   | -----:  |:---------:|:----------:|
 |数组|[Array](https://github.com/Schofi/Happy-With-Data-Structure-Java/blob/master/Array.java)|实现数组|对数组的增，删，查，改的时间复杂度最好有所了解|
 |链表|[LinkedList](https://github.com/Schofi/Happy-With-Data-Structure-Java/blob/master/LinkedList.java)|实现链表|可以实现并归排序，删除时间复杂度低|
