@@ -32,5 +32,5 @@
 |字典树（前缀树）|[Trie](https://github.com/Schofi/Happy-With-Data-Structure-Java/blob/master/Trie.java)|实现字典树|适用与字符串，查询很高效|
 |哈希表|[HashTable](https://github.com/Schofi/Happy-With-Data-Structure/blob/master/HashTable.java)|整形哈希函数|键与值分布越均匀越好，不同领域有不同的设计方法|
 ***
-###不是总结的总结
+### 不是总结的总结
 * 这个目录只是让读者大概了解一下数据结构的主要内容，学会如何思考是数构的核心内容，不是某种语言，学好数构需要大量的上机练习，不是看看就行的，祝你成功。
