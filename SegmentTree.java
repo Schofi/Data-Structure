@@ -100,6 +100,6 @@ public class SegmentTree<E> {
 		}else {
 			set(leftTreeIndex,l,mid,index,e);
 		}
-		tree[treeIndex]=merger.merge(tree[leftTreeIndex], tree[leftTreeIndex]);
+		tree[treeIndex]=merger.merge(tree[leftTreeIndex], tree[rightTreeIndex]);
 	}
 }
