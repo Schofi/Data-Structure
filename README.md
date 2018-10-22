@@ -33,7 +33,7 @@
 |字典树（前缀树）|[Trie](https://github.com/Schofi/Happy-With-Data-Structure-Java/blob/master/Trie.java)|实现字典树|适用与字符串，查询很高效|
 |哈希表|[HashTable](https://github.com/Schofi/Happy-With-Data-Structure/blob/master/HashTable.java)|整形哈希函数|键与值分布越均匀越好，不同领域有不同的设计方法|
 |线段树|[SegmentTree](https://github.com/Schofi/Happy-With-Data-Structure/blob/master/SegmentTree.java)|数组实现|用以存储区间或线段，并且允许快速查询结构内包含某一点的所有区间|
-|AVL树|[AVLTree](https://github.com/Schofi/Happy-With-Data-Structure/blob/master/AVLTree.java)|||
+|AVL树|[AVLTree](https://github.com/Schofi/Happy-With-Data-Structure/blob/master/AVLTree.java)|BST实现|具有自平衡机制，重点判断不平衡点和左旋与右旋的使用及连贯使用，在极端情况下，相较普通的二分搜索树，性能巨大的提升|
 |红黑树|[RBTree](https://github.com/Schofi/Happy-With-Data-Structure/blob/master/RBTree.java)|||
 ***
 ### 不是总结的总结
