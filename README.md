@@ -3,7 +3,9 @@
 * 我们在调用set,map等标准库里的东西，大多使用平衡二叉树，也就是红黑树实现的
 * 哈希表的操作时间复杂度为o(1),但失去了可比较性实现的哈希表要求键必须为可比较的对象，Java8之后当哈希冲突达到一定程度后每个位置会从链表变成红黑树。
 * 在线段树中，不考虑添加元素，即区间固定，假设区间有n个元素，数组开出4n的静态空间就好了。
-* 代码主要是用java写的，目前不断增加中......
+* AVL树还可以优化，比如在维护平衡之前要判断平衡因子，如果计算的平衡因子与之前保持一致则不需要维持平衡。
+* 最重要的树结构是红黑树，红黑树更是所有语言中树结构的首选底层实现。
+* 代码主要是用java写的，以后也会增加c++，python版本的代码。
 ---
 |                  数据结构          |              Java源码               |                    注释      |           说明                   |
 | --------   | -----:  |:---------:|:----------:|
@@ -13,9 +15,11 @@
 |集合|[Set](https://github.com/Schofi/Happy-With-Data-Structure-Java/blob/master/Set.java)|集合接口||
 ||[LinkedListSet](https://github.com/Schofi/Happy-With-Data-Structure-Java/blob/master/LinkedListSet.java)|链表实现集合||
 ||[BSTSet](https://github.com/Schofi/Happy-With-Data-Structure-Java/blob/master/BinarySearchTreeSet.java)|二分搜索树实现集合||
+||[AVLSet](https://github.com/Schofi/Happy-With-Data-Structure/blob/master/AVLSet.java)|AVL树实现||
 |映射|[Map](https://github.com/Schofi/Happy-With-Data-Structure-Java/blob/master/Map.java)|映射接口||
 ||[LinkedListMap](https://github.com/Schofi/Happy-With-Data-Structure-Java/blob/master/LinkedListMap.java)|链表实现||
 ||[BSTMap](https://github.com/Schofi/Happy-With-Data-Structure-Java/commit/4f20437e69a616a1aefbe4a20e805453cd5f66d9)|二分搜索树实现||
+||[AVLMap](https://github.com/Schofi/Happy-With-Data-Structure/blob/master/AVLMap.java)|AVL树实现||
 |栈|[Stack](https://github.com/Schofi/Happy-With-Data-Structure-Java/blob/master/Stack.java)|栈的接口||
 ||[ArrayStack](https://github.com/Schofi/Happy-With-Data-Structure-Java/blob/master/ArrayStack.java)|数组实现栈||
 ||[LinkedListStack](https://github.com/Schofi/Happy-With-Data-Structure-Java/blob/master/LinkedListStack.java)|链表实现栈|
@@ -29,7 +33,7 @@
 ||[UnionFind3](https://github.com/Schofi/Happy-With-Data-Structure-Java/blob/master/Union%20Find/UnionFind3.java)|基于size优化|size为集合元素个数|
 ||[UnionFind4](https://github.com/Schofi/Happy-With-Data-Structure-Java/blob/master/Union%20Find/UnionFind4.java)|基于rank的优化|rank为树的高度|
 ||[UnionFind5](https://github.com/Schofi/Happy-With-Data-Structure-Java/blob/master/Union%20Find/UnionFind5.java)|路径压缩|让当前节点指向父亲的父亲结点|
-||[UnionFind6](https://github.com/Schofi/Happy-With-Data-Structure-Java/blob/master/Union%20Find/UnionFind6.java)|递归实现路径压缩||
+||[UnionFind6](https://github.com/Schofi/Happy-With-Data-Structure-Java/blob/master/Union%20Find/UnionFind6.java)|递归实现路径压缩|此时的rank仅代表节点的相对高度|
 |字典树（前缀树）|[Trie](https://github.com/Schofi/Happy-With-Data-Structure-Java/blob/master/Trie.java)|实现字典树|适用与字符串，查询很高效|
 |哈希表|[HashTable](https://github.com/Schofi/Happy-With-Data-Structure/blob/master/HashTable.java)|整形哈希函数|键与值分布越均匀越好，不同领域有不同的设计方法|
 |线段树|[SegmentTree](https://github.com/Schofi/Happy-With-Data-Structure/blob/master/SegmentTree.java)|数组实现|用以存储区间或线段，并且允许快速查询结构内包含某一点的所有区间|
