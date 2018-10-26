@@ -6,6 +6,11 @@
 * AVL树还可以优化，比如在维护平衡之前要判断平衡因子，如果计算的平衡因子与之前保持一致则不需要维持平衡。
 * 最重要的树结构是红黑树，红黑树更是所有语言中树结构的首选底层实现。
 * 代码主要是用java写的，以后也会增加c++，python版本的代码。
+### 红黑树的复杂度与效果分析
+* 在小数据量的情况下，更简单的操作由于操作次数较少，很有可能会比某些复杂度低的算法效果好。
+* 红黑树在逻辑上定义了是完全平衡的，但不严格，在结构中可能的实际高度比AVL树要高。
+* 红黑树的真正优势在于添加与删除操作。
+* 还有重要的一点我自己写的红黑树并不是最优化形式。
 ---
 |                  数据结构          |              Java源码               |                    注释      |           说明                   |
 | --------   | -----:  |:---------:|:----------:|
@@ -38,7 +43,7 @@
 |哈希表|[HashTable](https://github.com/Schofi/Happy-With-Data-Structure/blob/master/HashTable.java)|整形哈希函数|键与值分布越均匀越好，不同领域有不同的设计方法|
 |线段树|[SegmentTree](https://github.com/Schofi/Happy-With-Data-Structure/blob/master/SegmentTree.java)|数组实现|用以存储区间或线段，并且允许快速查询结构内包含某一点的所有区间|
 |AVL树|[AVLTree](https://github.com/Schofi/Happy-With-Data-Structure/blob/master/AVLTree.java)|BST实现|具有自平衡机制，重点判断不平衡点和左旋与右旋的使用及连贯使用，在极端情况下，相较普通的二分搜索树，性能巨大的提升|
-|红黑树|[RBTree](https://github.com/Schofi/Happy-With-Data-Structure/blob/master/RBTree.java)|||
+|红黑树|[RBTree](https://github.com/Schofi/Happy-With-Data-Structure/blob/master/RBTree.java)|BST实现|建立在二分搜索树，AVL树，2-3树的基础上的树，完全理解前面3种树后理解红黑树变得十分简单，红黑树是一颗真正意义上的完全平衡的树，具有‘黑’平衡的性质|
 ***
 ### 不是总结的总结
 * 这个目录只是让读者大概了解一下数据结构的主要内容，学会如何思考是数构的核心内容，不是某种语言，学好数构需要大量的上机练习，不是看看就行的，祝你成功。
