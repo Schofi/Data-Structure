@@ -29,8 +29,38 @@ public class RBTree<K extends Comparable<K>,V> implements Map<K,V> {
 	public boolean isEmpty() {
 		return size==0;
 	}
+	private boolean isRed(Node node) {
+		if(node==null) {
+			return BLACK;
+		}
+		return node.color;
+	}
+	private Node leftRotate(Node node) {
+		Node x=node.right;
+		//左旋
+		node.right=x.left;
+		x.left=node;
+		x.color=node.color;
+		node.color=RED;
+		return x;
+	}
+	private Node rightRotate(Node node) {
+		Node x=node.right;
+		//右旋转
+		node.left=x.right;
+		x.right=node;
+		x.color=node.color;
+		node.color=RED;
+		return x;
+	}
+	private void flipColors(Node node) {
+		node.color=RED;
+		node.left.color=BLACK;
+		node.right.color=BLACK;
+	}
 	public void add(K key,V value) {
 		root=add(root,key,value);
+		root.color=BLACK;
 	}
 	private Node add(Node node,K key,V value) {
 		if(node==null) {
@@ -43,6 +73,15 @@ public class RBTree<K extends Comparable<K>,V> implements Map<K,V> {
 			node.right=add(node.right,key,value);
 		}else {
 			node.value=value;
+		}
+		if(isRed(node.right)&&!isRed(node.left)) {
+			node=leftRotate(node);
+		}
+		if(isRed(node.left)&&isRed(node.right)) {
+			node=rightRotate(node);
+		}
+		if(isRed(node.left)&&isRed(node.right)) {
+			flipColors(node);
 		}
 		return node;
 	}
