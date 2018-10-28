@@ -47,5 +47,5 @@
 ***
 ### 不是总结的总结
 * 以上的树结构只是数据结构世界中的冰山一角，掌握上述基础是学习其他树，图理论的基础，下图是我在维基百科中找到的树结构。
-![各种平衡树](https://github.com/Schofi/Happy-With-Data-Structure/blob/master/images/rt.png)
+![各种平衡树](https://github.com/Schofi/Happy-With-Data-Structure/blob/master/images/BalanceTree.png)
 * 这个目录只是让读者大概了解一下数据结构的主要内容，学会如何思考是数构的核心内容，不是某种语言，学好数构需要大量的上机练习，不是看看就行的，祝你成功。
